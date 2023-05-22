@@ -1,7 +1,7 @@
 <?php
-$servername = "criticaapp.cllsvu4r1ic2.sa-east-1.rds.amazonaws.com";
-$username = "root";
-$password = "123456789";
+$servername = "INSIRA SEU SERVER AQUI";
+$username = "USERNAME";
+$password = "SENHA";
 $dbname = "app";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -11,9 +11,9 @@ if ($conn->connect_error) {
 
 function getConnection()
 {
-    $servername = "criticaapp.cllsvu4r1ic2.sa-east-1.rds.amazonaws.com";
-    $username = "root";
-    $password = "123456789";
+    $servername = "INSIRA SEU SERVER AQUI";
+    $username = "USERNAME";
+    $password = "SENHA";
     $dbname = "app";
     $conn = new mysqli($servername, $username, $password, $dbname);
     if ($conn->connect_error) {
